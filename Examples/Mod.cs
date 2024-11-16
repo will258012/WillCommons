@@ -48,6 +48,7 @@ namespace WillCommons.Examples
         /// <param name="helper">The UI helper provided by the game.</param>
         public void OnSettingsUI(UIHelperBase helper)
         {
+             ModSettings.Load(); //Load the settings first.
             // Example: Adding a checkbox for a setting.
             var group = helper.AddGroup("My Mod Settings"); // Create a settings group.
             group.AddCheckbox(
