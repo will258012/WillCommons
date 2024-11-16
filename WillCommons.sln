@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WillCommons", "WillCommons.csproj", "{C401668D-5586-413B-93C7-ADEA10B170B2}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "WillCommonsShared", "WillCommonsShared.shproj", "{8086A3B3-4A05-4054-9CEF-05E381BA467B}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "WillCommonsPatchingShared", "WillCommonsPatchingShared.shproj", "{B6425656-CEF8-46D5-B4DC-F8B36BAC4CAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C401668D-5586-413B-93C7-ADEA10B170B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C401668D-5586-413B-93C7-ADEA10B170B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C401668D-5586-413B-93C7-ADEA10B170B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C401668D-5586-413B-93C7-ADEA10B170B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {399250B5-AAF3-4D98-9596-66CF119057F0}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		WillCommonsShared.projitems*{8086a3b3-4a05-4054-9cef-05e381ba467b}*SharedItemsImports = 13
+		WillCommonsPatchingShared.projitems*{b6425656-cef8-46d5-b4dc-f8b36bac4caf}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal
