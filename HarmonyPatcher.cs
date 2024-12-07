@@ -88,6 +88,7 @@ namespace WillCommons
             var harmony = new Harmony(HarmonyID);
             harmony.UnpatchAll(HarmonyID);
             Logging.Msg("Successfully unpatched");
+            PatcherModBase.PatcherInstance.HasPatched = false;
         }
     }
 }
